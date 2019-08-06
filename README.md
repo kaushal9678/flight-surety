@@ -25,6 +25,13 @@ ACCOUNTS=<The number of accounts provieded by ganache-cli when it starts>
 
 In order to start oracle server or pass tests, at least 30 accounts are needed. 
 
+# start ganache
+
+Run this command. It starts ganache-cli according to your .env settings.
+
+```
+$ yarn run ganache
+```
 >You can also use Ganache userInterface app instead of below command. After running Ganache app go inside settings then 
 ```Account & Keys```
 set total accounts to generate. Check below images.
@@ -35,13 +42,6 @@ As you can see in 3rd image copy your mnemonic string and paste it inside .env f
 
 
 
-# start ganache
-
-Run this command. It starts ganache-cli according to your .env settings.
-
-```
-$ yarn run ganache
-```
 
 # deploy
 
