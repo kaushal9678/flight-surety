@@ -1,10 +1,10 @@
 # Flight Surety
 
-Udacity Blockchain ND project 7
+Udacity Blockchain Nano Degree project 7
 
 # node, yarn version
-- node@10.15.3
-- yarn@1.16.0
+- node@12.6.0
+- yarn@1.17.3
 
 # install
 
@@ -23,7 +23,16 @@ MNEMONIC=<Your MetaMask mnemonic>
 ACCOUNTS=<The number of accounts provieded by ganache-cli when it starts>
 ```
 
-In order to start oracle server or pass tests, at least 30 accounts are needed.
+In order to start oracle server or pass tests, at least 30 accounts are needed. 
+You can also use Ganache userInterface app instead of below command. After running Ganache app go inside settings then 
+```Account & Keys```
+set total accounts to generate. Check below images.
+![truffle test](images/Ganache1.png)
+![truffle test](images/Ganache2.png)
+![truffle test](images/Ganache3.png)
+As you can see in 3rd image copy this mnemonic and paste it inside .env file.
+
+
 
 # start ganache
 
