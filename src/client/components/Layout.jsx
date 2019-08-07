@@ -24,6 +24,7 @@ const Layout = ({ web3, contract, account, flights }) => {
                         type="button"
                         className={`btn btn-block ${active === AIRLINE ? 'btn-primary' : 'btn-outline-secondary'}`}
                         onClick={() => setActive(AIRLINE)}
+                        
                     >
                         Airline
                     </button>

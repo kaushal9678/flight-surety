@@ -82,3 +82,6 @@ Run this command.
 ```
 $ yarn test
 ```
+>Final app will look like this
+
+![truffle test](images/finalApp.png)

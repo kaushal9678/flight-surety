@@ -14,10 +14,10 @@ const RegisterAirline = ({ contract, account }) => {
 
     return (
         <div>
-            <h3>Register another airline</h3>
+            <h3 style={{ color: '#e3e3e3' }}>Register another airline</h3>
             <form>
                 <div className="form-group">
-                    <label htmlFor="airlineAddress">
+                    <label htmlFor="airlineAddress" style={{ color: '#e3e3e3' }}>
                         Airline address
                         <input
                             type="text"

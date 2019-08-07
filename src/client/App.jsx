@@ -32,8 +32,8 @@ const App = () => {
     }, [contract]);
 
     return (
-        <div className="container d-flex flex-column">
-            <h1 className="flex-grow-0">Flight Surety Dapp</h1>
+          <div className="container d-flex flex-column">
+            <h1 className="flex-grow-0" style={{color:"#fff"}}>Flight Surety Dapp</h1>
             {web3 && contract && account ? (
                 <Layout
                     web3={web3}

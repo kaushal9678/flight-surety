@@ -17,15 +17,15 @@ const Flights = ({ contract, account, flights, containerClass }) => {
 
     return (
         <div className={containerClass}>
-            <h3>Flights</h3>
+            <h3 style={{ color: '#e2e2e2' }}>Flights</h3>
             <table className="table">
                 <thead>
                     <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">airline</th>
-                        <th scope="col">flight number</th>
-                        <th scope="col">departure</th>
-                        <th scope="col">register</th>
+                        <th scope="col" style={{ color: '#e3e3e3' }}>#</th>
+                        <th scope="col" style={{ color: '#e3e3e3' }}>Airline</th>
+                        <th scope="col" style={{ color: '#e3e3e3' }}>Flight number</th>
+                        <th scope="col" style={{ color: '#e3e3e3' }}>Departure</th>
+                        <th scope="col" style={{ color: '#e3e3e3' }}>Register</th>
                     </tr>
                 </thead>
                 <tbody>

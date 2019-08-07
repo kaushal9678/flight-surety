@@ -36,12 +36,12 @@ const FundAirline = ({ web3, contract, account }) => {
 
     return (
         <div>
-            <h3>Fund to participate Dapp</h3>
+            <h3 style={{ color: '#e3e3e3' }}>Fund to participate Dapp</h3>
             {funded ? (
                 <p>Funded enough.</p>
             ) : (
                 <Fragment>
-                    <p>Fund 10 ether to participate dapp!</p>
+                    <p style={{ color: '#e3e3e3' }}>Fund 10 ether to participate dapp!</p>
                     <button
                         type="button"
                         className="btn btn-primary"
