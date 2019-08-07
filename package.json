@@ -2,8 +2,8 @@
   "name": "flight-surety",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Kaicoh <sumireminami@gmail.com>",
-  "license": "MIT",
+  "author": "kaushal<k.kaushal50@gmail.com>",
+  "license": "",
   "engines": {
     "node": "12.6.0",
     "yarn": "1.17.3"
